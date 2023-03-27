@@ -1,9 +1,8 @@
 // import listeningImage from './images/listening.png';
-import { FaSpotify, FaHeart } from "react-icons/fa"
+import { FaSpotify } from "react-icons/fa"
 import { Link } from "react-router-dom";
-import Container from '../Components/Container';
 import Footer from '../Components/Footer';
-import { DragControls, motion, useAnimation } from "framer-motion"
+import { motion, useAnimation } from "framer-motion"
 import { useEffect } from "react";
 import CenterContainer from "../Components/CenterContainer";
 

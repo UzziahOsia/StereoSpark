@@ -24,7 +24,7 @@ export default function Error() {
     const params = useParams();
     const errorCode = params.errno
 
-    let [searchParams, setSearchParams] = useSearchParams();
+    let [searchParams] = useSearchParams();
 
     const from = searchParams.get("from")
 
