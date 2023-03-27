@@ -2,7 +2,7 @@ import { motion, AnimatePresence } from 'framer-motion'
 import { useSelector, useDispatch } from "react-redux"
 import { Link } from 'react-router-dom';
 import AddedSong from './AddedSong';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 
 import { clearAddedSongs, removeSong } from '../actions';
 import ModalHeader from './ModalHeader';
