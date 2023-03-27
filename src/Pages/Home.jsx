@@ -74,7 +74,7 @@ export default function Home() {
                 <p
                     className="text-sm uppercase tracking-widest muted"
                 >
-                    <a href="https://nabilridhwan.github.io" className="hover:text-black dark:hover:text-white">Nabil Ridhwan </a> &copy; {new Date().getFullYear()}
+                    <a href="https://github.com/UzziahOsia" className="hover:text-black dark:hover:text-white">Uzziah Osia </a> &copy; {new Date().getFullYear()}
                 </p>
 
                 <motion.h1
@@ -90,7 +90,7 @@ export default function Home() {
                     animate={fromTopAnim}
                     custom={2}
                     className='muted leading-relaxed'>
-                    With Similarify, you can discover new songs you'd like based on the songs you already like!
+                    With StereoSpark, you can discover new songs you'd like based on the songs you already like!
                 </motion.p>
             </motion.div>
 
@@ -101,7 +101,7 @@ export default function Home() {
                 </h1>
 
                 <p className='dark:text-white/50 text-black/50 mb-5 text-sm'>
-                    Similarify does not store any of your data. It only uses your Spotify account to search and get recommendations.
+                    StereoSpark does not store any of your data. It only uses your Spotify account to search and get recommendations.
                 </p>
 
                 <ol className='list-decimal space-y-4 ml-4 leading-relaxed'>

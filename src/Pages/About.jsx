@@ -11,10 +11,10 @@ export default function About() {
 
             <div className="py-5 clear-both">
                 <h1 className="font-bold text-2xl" >
-                    About Similarify
+                    About StereoSpark
                 </h1>
                 <p className="dark:text-white/60 text-black/60">
-                    More information and common questions about Similarify
+                    More information and common questions about StereoSpark
                 </p>
             </div>
 
@@ -27,7 +27,7 @@ export default function About() {
                             Found a bug or want a feature? 🐛🎁*
                         </h2>
                         <p className="text-lg">
-                            Submit an issue <a href="https://github.com/nabilridhwan/similarify/issues" className="underline">here</a>.
+                            Submit an issue <a href="https://github.com/UzziahOsia/StereoSpark/issues" className="underline">here</a>.
                         </p>
                     </div>
 
@@ -44,7 +44,7 @@ export default function About() {
                             Try out new features ✨*
                         </h2>
                         <p className="text-lg">
-                            You can try out cutting-edge features <a href="https://next--similarify.netlify.app/" className="underline">here</a>.
+                            You can try out cutting-edge features <a href="https://next--StereoSpark.netlify.app/" className="underline">here</a>.
                         </p>
                     </div>
 
@@ -56,25 +56,25 @@ export default function About() {
 
             <div className="section spacing">
                 <h2>
-                    Is Similarify open-source?
+                    Is StereoSpark open-source?
                 </h2>
                 <p>
-                    Yes, Similarify is open-source and it's Github project can be found <a href="https://github.com/nabilridhwan/similarify" className="underline">here</a> and the <strong>next</strong> version of Similarify can be found <a href="https://github.com/nabilridhwan/similarify/tree/next" className="underline">here</a>.
+                    Yes, StereoSpark is open-source and it's Github project can be found <a href="https://github.com/UzziahOsia/StereoSpark.git" className="underline">here</a> and the <strong>next</strong> version of StereoSpark can be found <a href="https://github.com/UzziahOsia/StereoSpark/tree/next" className="underline">here</a>.
                 </p>
             </div>
 
             <div className="section spacing">
                 <h2>
-                    Why is Similarify created?
+                    Why is StereoSpark created?
                 </h2>
                 <p>
-                    Similarify is created when I wanted to find ways to discover songs to the ones I already like.
+                StereoSpark is created to find ways to discover songs similar to the ones you already like.
                 </p>
             </div>
 
             <div className="section spacing">
                 <h2>
-                    What is Similarify built on?
+                    What is StereoSpark built on?
                 </h2>
 
                 <span className="icons flex text-2xl gap-2 my-4">
@@ -86,16 +86,16 @@ export default function About() {
                     <SiSentry />
                 </span>
                 <p>
-                    Similarify is built on React, Redux, Tailwind CSS, Spotify API (and uses the recommendations algorithms from them), Framer motion for animations and Sentry for error reporting in production.
+                StereoSpark is built on React, Redux, Tailwind CSS, Spotify API (and uses the recommendations algorithms from them), Framer motion for animations and Sentry for error reporting in production.
                 </p>
             </div>
 
             <div className="section spacing">
                 <h2>
-                    Does Similarify collect data?
+                    Does StereoSpark collect data?
                 </h2>
                 <p>
-                    Similarify does not collect any data. Similarify only uses your Spotify account to search for tracks, get your playlists, liked songs, recently played and currently playing track and create or modify existing playlists.
+                StereoSpark does not collect any data. StereoSpark only uses your Spotify account to search for tracks, get your playlists, liked songs, recently played and currently playing track and create or modify existing playlists.
                 </p>
             </div>
 

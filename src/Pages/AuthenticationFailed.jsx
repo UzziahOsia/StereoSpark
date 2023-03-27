@@ -10,7 +10,7 @@ export default function AuthenticationFailed() {
                 </h1>
 
                 <p className="text-black/60">
-                    Similarify does not store any of your data. It only uses your Spotify account to search and get recommendations.
+                StereoSpark does not store any of your data. It only uses your Spotify account to search and get recommendations.
                 </p>
 
                 <Link

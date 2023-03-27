@@ -9,8 +9,8 @@ const ERRORS = {
     },
 
     "403": {
-        title: "You are not verified to use Similarify",
-        message: "Similarify is currently not for public use. Please contact the admin to get access."
+        title: "You are not verified to use StereoSpark",
+        message: "StereoSpark is currently not for public use. Please contact the admin to get access."
     },
 
     "404": {

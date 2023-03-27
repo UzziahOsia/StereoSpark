@@ -52,12 +52,12 @@ export default function AddedPlaylistSongs({ onClose, onClearAll}) {
         let pDesc = playlistDescription;
 
         if (pName === '') {
-            pName = ('Similarify Playlist ' + Math.floor(Math.random() * 100));
+            pName = ('StereoSpark Playlist ' + Math.floor(Math.random() * 100));
         }
 
         // Check if playlist description is empty or not, if yes, then make a random description up
         if (pDesc === '') {
-            pDesc = "This playlist is created by Similarify (https://similarify.netlify.app). Find similar songs to the ones you like!";
+            pDesc = "This playlist is created by StereoSpark (https://StereoSpark.netlify.app). Find similar songs to the ones you like!";
         }
 
 

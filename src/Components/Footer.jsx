@@ -7,7 +7,7 @@ export default function Footer() {
 
 
             <p className="flex justify-center items-center">
-                Created with <FaHeart className="mx-1" /> by <a href="https://nabilridhwan.github.io" className="ml-1">Nabil Ridhwan</a>&nbsp;&copy; {new Date().getFullYear()}
+                Created with <FaHeart className="mx-1" /> by <a href="https://github.com/UzziahOsia" className="ml-1">Uzziah Osia</a>&nbsp;&copy; {new Date().getFullYear()}
             </p>
 
             <p>

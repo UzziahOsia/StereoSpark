@@ -11,7 +11,7 @@
     -   If you were on the `/recommendation` page (or you are creating or adding to an existing playlist), you will be redirected to the `/search` page __*by default*__ after re-authenticating. __(UNDER TESTING)__
 ### Changed
 
-- Changed contents of the About Me page (grammar-wise) and include a link to the "next" branch of Similarify.
+- Changed contents of the About Me page (grammar-wise) and include a link to the "next" branch of StereoSpark.
 -   Changed authentication callback to `/authenticate` instead of `/search`.
 -   Changed the BackButton redirect `to` parameter for certain page because of the new authentication callback.
 
@@ -72,7 +72,7 @@
 ## [0.9.0] - 2022-04-09
 >   We usually put humorous update notes here but that guy is on leave today and we have to take things seriously for today.
 
->   The semantic version naming convention have changed for Similarify. It went from `1.8.0` > `0.9.0`. However, note that the features remain the same, there is no downgrade of features. The version number changed because version `1.X.X` is supposed to be a very stable branch (which Similarify is far from that).
+>   The semantic version naming convention have changed for StereoSpark. It went from `1.8.0` > `0.9.0`. However, note that the features remain the same, there is no downgrade of features. The version number changed because version `1.X.X` is supposed to be a very stable branch (which StereoSpark is far from that).
 
 >   With the serious stuff out of the way, we upgraded the bridge and improved the management of the people who takes care of the bridge! (I just got hired today, as an ad-hoc, im inferring from the previous guy's release notes)
 
@@ -91,7 +91,7 @@
 -   Get Recommendation button color is now green.
 -   Background color is now darker.
 -   Increased margin of the input slider of the Adjusts Parameter page - This is so that fat fingers can adjusts the parameters easily!
-- __[DEV]__ After the previous update's change that all song parameters are instances of the `Parameter` class. It is decided that Similarify adopts the Object Oriented Programming style. Now, Tracks are instances of the `Track` class, artists are instances of the `Artist` class and playlists are instances of the `Playlist` class. Check out the respective class files in `src/utils`!
+- __[DEV]__ After the previous update's change that all song parameters are instances of the `Parameter` class. It is decided that StereoSpark adopts the Object Oriented Programming style. Now, Tracks are instances of the `Track` class, artists are instances of the `Artist` class and playlists are instances of the `Playlist` class. Check out the respective class files in `src/utils`!
 
 ### Fixed
 
@@ -195,7 +195,7 @@
 
 ### Fixed
 -   The application should now work as per usual (and the adding of items to your list will now work again - songs won't show "Add to list" even though you have already added it to your list).
-    -   The code merge made by the bot (which I non-hesitantly approved) broke some stuff and reverting back the mistake made a bigger mess than it should which is why Similarify goes down for maintainence.
+    -   The code merge made by the bot (which I non-hesitantly approved) broke some stuff and reverting back the mistake made a bigger mess than it should which is why StereoSpark goes down for maintainence.
 -   __[NEW]__ In the recommendations page, if you added a song into your playlist and refreshed the recommendation, and if the same song appears in the refreshed recommendation, the button will display "Add to Playlist" even though it already has been added.
     -   This bug has been fixed (but the horrors of `O(n^2)` comes back and haunts the Recommended page)
 
@@ -250,7 +250,7 @@
 - None
 
 ## 1.5.3 — Spotify approves 🎉
->   Spotify approves the quota extension. `v1.5.3` is the first public release of Similarify. With that, there are some fixes and optimizations that is included in this update. Going forward, Sentry is added to monitor any uncaught exceptions, errors and traffic of the application.
+>   Spotify approves the quota extension. `v1.5.3` is the first public release of StereoSpark. With that, there are some fixes and optimizations that is included in this update. Going forward, Sentry is added to monitor any uncaught exceptions, errors and traffic of the application.
 
 ### Added
 -   Added logout button (so you can sign in with a different Spotify account)
