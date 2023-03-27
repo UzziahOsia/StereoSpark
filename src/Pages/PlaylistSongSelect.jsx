@@ -33,7 +33,6 @@ export default function PlaylistSongSelect() {
     let [loading, setLoading] = useState(true)
 
 
-    const { apiKey, error, loggedIn } = useApiKey(`playlists`);
 
     useEffect(() => {
         if (Object.prototype.hasOwnProperty.call(params, 'id') === false) {
@@ -199,7 +198,7 @@ export default function PlaylistSongSelect() {
                 Search powered by Spotify
             </h1> */}
 
-            {!loading && playlistSongs.length == 0 && (
+            {!loading && playlistSongs.length === 0 && (
                 <div className="my-32 dark:text-white/50 text-black/50 flex flex-col items-center justify-center text-center">
                     <FaRegSadCry className="text-2xl my-5" />
                     <p className="text-sm">

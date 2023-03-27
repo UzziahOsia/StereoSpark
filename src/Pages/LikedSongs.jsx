@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 import { FaRegSadCry } from "react-icons/fa"
-import { useLocation, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import Container from "../Components/Container";
 
 import { motion, AnimatePresence } from "framer-motion";
@@ -15,7 +15,6 @@ import DoneButton from "../Components/DoneButton";
 import LoadingSpinner from "../Components/LoadingSpinner";
 
 import SpotifyInstance from "../utils/SpotifyInstance"
-import useApiKey from "../hooks/useApiKey";
 import ErrorMessage from "../Components/ErrorMessage";
 import useError from "../hooks/useError";
 import Track from "../utils/Track";
@@ -35,7 +34,6 @@ export default function LikedSongs() {
 
     const { error, setError } = useError();
 
-    const { apiKey, error: e, loggedIn } = useApiKey("likedsongs");
     
 
     useEffect(() => {
@@ -67,11 +65,6 @@ export default function LikedSongs() {
         setLikedSongs(Object.values(finalTracks))
     }, [addedSongs])
 
-    function handleFormSubmit(e) {
-        // Prevent default submit action
-        e.preventDefault();
-        // searchForTracks()
-    }
 
     async function getLikedSongs() {
         try {
@@ -216,7 +209,7 @@ export default function LikedSongs() {
                     }}
                     className="my-5 grid gap-2">
 
-                    {likedSongs.map((track, index) => {
+                    {likedSongs.map((track) => {
                         return (
                             <SpotifySong track={track} key={track.id} />
                         )
