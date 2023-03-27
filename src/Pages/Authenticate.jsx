@@ -2,9 +2,8 @@ import { useEffect } from "react";
 import Container from "../Components/Container";
 import SpotifyApi from "../utils/SpotifyApi";
 import { useDispatch, useSelector } from "react-redux";
-import { useLocation, useNavigate, useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 import SpotifyInstance from "../utils/SpotifyInstance";
-import useApiKey from "../hooks/useApiKey";
 import { setApiKey } from "../actions";
 
 // TODO: Allow other apis to store state so that we can get data to redirect after authentication
