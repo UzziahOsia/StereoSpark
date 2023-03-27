@@ -22,3 +22,4 @@ Since the application is fully client side, the authentication method used for S
 ```
 REACT_APP_SPOTIFY_CLIENT_ID=<SPOTIFTY API KEY>
 REACT_APP_REDIRECT_URI=<SPOTIFY_REDIRECT_URI>
+```
